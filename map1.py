@@ -35,7 +35,7 @@ fgc = folium.FeatureGroup(name="HOME")
 
 fgc.add_child(folium.Marker(location=[9.89360,78.17643] ,  popup='HOME' , color = 'Red'))
 
-fgh = folium.FeatureGroup(name="you're loved")
+fgh = folium.FeatureGroup(name="HOME")
 
 fgh.add_child(folium.Marker(location=[9.82807,78.25312] , radius=6 , popup='myhome' ,fill_color='blue' , color = 'grey', fill='true', fill_opacity=0.7))
 
