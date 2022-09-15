@@ -31,9 +31,9 @@ fgp.add_child(folium.GeoJson(data=open('world.json' , 'r' , encoding='utf-8-sig'
 style_function=lambda x:{'fillColor':'yellow' if x['properties']['POP2005'] < 10000000
 else 'orange' if 10000000 <= x['properties']['POP2005'] < 20000000 else 'red' }))
 
-fgc = folium.FeatureGroup(name="no you're not lonely")
+fgc = folium.FeatureGroup(name="HOME")
 
-fgc.add_child(folium.Marker(location=[9.89360,78.17643] ,  popup='Your loved' , color = 'Red'))
+fgc.add_child(folium.Marker(location=[9.89360,78.17643] ,  popup='HOME' , color = 'Red'))
 
 fgh = folium.FeatureGroup(name="you're loved")
 
